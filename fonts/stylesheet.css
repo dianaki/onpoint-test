@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "GothamProBlack";
+  src: url("./GothamPro/GothamProBlack/GothamProBlack.eot");
+  src: url("./GothamPro/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+  url("./GothamPro/GothamProBlack/GothamProBlack.woff") format("woff"),
+  url("./GothamPro/GothamProBlack/GothamProBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("./GothamPro/GothamProMedium/GothamProMedium.eot");
+  src: url("./GothamPro/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+  url("./GothamPro/GothamProMedium/GothamProMedium.woff") format("woff"),
+  url("./GothamPro/GothamProMedium/GothamProMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamProLight";
+  src: url("./GothamPro/GothamProLight/GothamProLight.eot");
+  src: url("./GothamPro/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+  url("./GothamPro/GothamProLight/GothamProLight.woff") format("woff"),
+  url("./GothamPro/GothamProLight/GothamProLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: url("./Lato/LatoRegular/LatoRegular.eot");
+  src: url("./Lato/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+  url("./Lato/LatoRegular/LatoRegular.woff") format("woff"),
+  url("./Lato/LatoRegular/LatoRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: url("./Lato/LatoBold/LatoBold.eot");
+  src: url("./Lato/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+  url("./Lato/LatoBold/LatoBold.woff") format("woff"),
+  url("./Lato/LatoBold/LatoBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoLight";
+  src: url("./Lato/LatoLight/LatoLight.eot");
+  src: url("./Lato/LatoLight/LatoLight.eot?#iefix")format("embedded-opentype"),
+  url("./Lato/LatoLight/LatoLight.woff") format("woff"),
+  url("./Lato/LatoLight/LatoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

@@ -1,0 +1,43 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.maincontent {
+  background: url('../img/bg.jpg') top center/cover no-repeat;
+}
+
+section {
+  height: 100%;
+  min-height: 768px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1140px;
+  position: relative;
+}
+
+.first__slider {
+  color: #0d319c;
+}
+
+.container__title {
+  font-size: 100px;
+  font-family: GothamProLight;
+  font-weight: normal;
+  text-align: left;
+}
+
+.container__title--white {
+  color: #ffffff;
+  
+}
+
+.target__text {
+  font-size: 40px;
+  font-family: LatoRegular;
+}
+
