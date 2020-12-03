@@ -50,7 +50,7 @@ const performTransition = sectionEq => {
     inScrool = true;
     const position = countSectionPosition(sectionEq);
 
-    display.style.transform = 'translateY(${position}%)';
+    display.style.transform = `translateY(${position}%)`;
 
     resetActiveClassForItem(sections, sectionEq, 'active');
 
