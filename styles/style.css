@@ -1,3 +1,8 @@
+html, 
+body {
+  height: 100%;
+}
+
 .wrapper {
   height: 100%;
   width: 100%;
@@ -6,6 +11,17 @@
 }
 .maincontent {
   background: url('../img/bg.jpg') top center/cover no-repeat;
+  height: 100%;
+  transition: transform 1s;
+  will-change: transform;
+}
+
+.slider__container {
+  overflow: hidden;
+}
+
+.slider__track {
+  display: flex;
 }
 
 section {
@@ -26,6 +42,7 @@ section {
 
 .container__title {
   font-size: 100px;
+  margin: 0;
   font-family: GothamProLight;
   font-weight: normal;
   text-align: left;
