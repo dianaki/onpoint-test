@@ -23,22 +23,30 @@ function getSiblings(elem) {
 }
 
 const performTransition = sectionEq => {
-
-  if(inScrool === false) {
+  if (inScrool === false) {
     inScrool = true;
     const position = sectionEq * -100;
+
+    const sideMenuItem = [...document.querySelectorAll('.fixed-menu__item')];
+
     display.style.transform = 'translateY(${position}%)';
-    
+
     sections[sectionEq].classList.add('active');
-  
+
     const allSiblings = getSiblings(sections[sectionEq]);
-  
+
     for (let i = 0; i < allSiblings.length; i++) {
       allSiblings[i].classList.remove('active');
     }
 
+    sideMenuItem[sectionEq].classList.add('fixed-menu__item--active');
+
+
     setTimeout(() => {
       inScrool = false;
+      for (let i = 0; i < allSiblings.length; i++) {
+        sideMenuItem[i].classList.remove('fixed-menu__item--active');
+      }
     }, 1300);
   }
 }
@@ -68,3 +76,16 @@ window.addEventListener('wheel', e => {
     scrollViewport('prev');
   }
 });
+
+window.addEventListener('keydown', e => {
+
+  switch (e.keyCode) {
+    case 38: //prev
+      scrollViewport('prev');
+      break;
+
+    case 40: //next
+      scrollViewport('next');
+      break;
+  }
+})

@@ -3,6 +3,21 @@ body {
   height: 100%;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
 .wrapper {
   height: 100%;
   width: 100%;
@@ -58,3 +73,33 @@ section {
   font-family: LatoRegular;
 }
 
+.fixed-menu {
+  position: fixed;
+  top: 37%;
+  right: 3%;
+}
+
+.fixed-menu__item {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  display: block;
+  position: relative;
+}
+
+.fixed-menu__link{
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.fixed-menu__item--active .fixed-menu__link {
+  background: #f78b1f;
+}
