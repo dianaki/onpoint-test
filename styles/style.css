@@ -65,7 +65,7 @@ section {
 }
 
 .third__slider {
-  background: url('../img/bg3.png') center center/cover no-repeat;
+  background: url('../img/bg3.png');
   color: #fff;
 }
 
@@ -215,8 +215,70 @@ section {
   transform: translate(-50%,-50%);
 }
 
+.third__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.level__item {
+  display: none;
+}
+
+.level__title {
+  font-size: 28px;
+  margin-bottom: 150px;
+}
+
+.level__item--active {
+  display: flex;
+}
+
+.level__control {
+  width: 70%;
+}
+
+.range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 12px;
+  background:#d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.range:hover {
+  opacity: 1;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 44px;
+  height: 55px;
+  border: 0;
+  background: url('../img/iceControl.png');
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 44px;
+  height: 55px;
+  border: 0;
+  background: url('../img/iceControl.png');
+  cursor: pointer;
+}
+
+.level__control-text {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
 .fixed-menu {
-  position: fixed;
+  position: absolute;
   top: 47%;
   right: 5%;
 }
